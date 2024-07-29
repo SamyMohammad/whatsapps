@@ -15,7 +15,7 @@ class MessageWidget extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
       child: Row(
-        textDirection: textDirection,
+        textDirection: TextDirection.rtl,
         children: [
           CircleAvatar(
               radius: 27,
